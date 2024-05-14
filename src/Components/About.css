@@ -1,0 +1,14 @@
+.img {
+  background-image: url("../asset/Photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+}
+
+.demo {
+  height: 80vh;
+  overflow: auto;
+  overflow-y: auto;
+}

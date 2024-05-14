@@ -1,0 +1,18 @@
+.line {
+  position: relative;
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #4856c1;
+  transition: all ease .4s;
+}
+
+.line:hover::after {
+  width: 100%;
+}
