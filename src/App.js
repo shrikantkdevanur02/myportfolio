@@ -6,8 +6,8 @@ import About from "./Components/About";
 import Project from "./Components/Project";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
-import Demo from "./Components/Demo";
-// import Skd from "./Components/Skd";
+// import Demo from "./Components/Demo";
+import Skd from "./Components/Skd";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
       </Routes>
 
-      {/* <Skd /> */}
+      <Skd />
     </div>
   );
 }
