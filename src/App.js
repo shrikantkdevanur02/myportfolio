@@ -7,13 +7,13 @@ import Project from "./Components/Project";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 // import Demo from "./Components/Demo";
-import Skd from "./Components/Skd";
+// import Skd from "./Components/Skd";
 
 function App() {
   return (
     <div>
       {/* <Demo /> */}
-      {/* <Navbar1 />
+      <Navbar1 />
       <Navbar2 />
       <hr></hr>
       <Routes>
@@ -21,9 +21,9 @@ function App() {
         <Route path="/Project" element={<Project />} />
         <Route path="/Resume" element={<Resume />} />
         <Route path="/Contact" element={<Contact />} />
-      </Routes> */}
+      </Routes>
 
-      <Skd />
+      {/* <Skd /> */}
     </div>
   );
 }
