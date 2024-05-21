@@ -12,7 +12,7 @@ import Demo from "./Components/Demo";
 function App() {
   return (
     <div>
-      <Demo />
+      {/* <Demo /> */}
       <Navbar1 />
       <Navbar2 />
       <hr></hr>
