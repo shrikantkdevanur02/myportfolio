@@ -5,7 +5,7 @@ import "./Navbar2.css";
 function Navbar2() {
   return (
     <div className="container mt-3">
-      <div className="d-flex gap-5 fw-semibold ">
+      <div className="d-flex gap-4 fw-semibold ">
         <NavLink to="About " className="text-decoration-none line">
           About
         </NavLink>
