@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       {/* <Demo /> */}
-      <Navbar1 />
+      {/* <Navbar1 />
       <Navbar2 />
       <hr></hr>
       <Routes>
@@ -21,7 +21,7 @@ function App() {
         <Route path="/Project" element={<Project />} />
         <Route path="/Resume" element={<Resume />} />
         <Route path="/Contact" element={<Contact />} />
-      </Routes>
+      </Routes> */}
 
       <Skd />
     </div>
