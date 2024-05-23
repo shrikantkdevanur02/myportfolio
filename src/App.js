@@ -8,12 +8,14 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 // import Demo from "./Components/Demo";
 // import Skd from "./Components/Skd";
+// import Google1 from "./Components/Google1";
 
 function App() {
   return (
     <div>
       {/* <Demo /> */}
       <Navbar1 />
+      {/* <Google1 /> */}
       <Navbar2 />
       <hr></hr>
       <Routes>
@@ -24,6 +26,7 @@ function App() {
       </Routes>
 
       {/* <Skd /> */}
+      
     </div>
   );
 }
